@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ThinkPHP 5.0
 ===============
 
@@ -127,3 +128,7 @@ All rights reserved。
 ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
+=======
+zhyblog
+zhyblog
+>>>>>>> 371f3360add4d7a1b8ee6ca4a12e12a39d350d76
