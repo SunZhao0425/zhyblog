@@ -1,6 +1,5 @@
 DateTimePicker：jQuery日期和时间插件
 
-
 1,判断商品是否存在
 2,按照规格取价格
 3,计算购买的价格
@@ -17,7 +16,6 @@ vip-pay/app-pay
 
 VipGift
 
-$order_id = 1315338;
 
  商场：
  商品分类
@@ -34,17 +32,14 @@ super_type 超级TV赛事分类表
 判断redis 中没有,就去数据库中获取,存储在redis中
 
 
-日期场次
-图文赛事和普通赛事的区别
-纳米数据 是什么东西
-赛程列表  待屡清楚
+图文赛事和视频赛事
+赛程列表
 
-为什么用node, 用node干了什么
+node 用于直播推流
 
 ElasticaSearch
 
 isset($a['id'],$a['name']) : 多个参数可以同时检测
-
 
 shop-商城 : 接口
 vip-会员: 页面php
@@ -69,7 +64,6 @@ manager:启动GUI来管理已安装的服务
 
 # 新增新的参数,这样head插件可以访问es
 
-http://redisdoc.com/topic/cluster-spec.html
 
     /**
      * 获取懂球帝射手榜数据
@@ -78,9 +72,13 @@ http://redisdoc.com/topic/cluster-spec.html
      * @Modified By：
      * @Modified Date：
      */
- # 弹性云
- # cenOs
- # es
 
- 安装 centOs8
- https://www.cnblogs.com/wzb0228/p/12653104.html
+
+ny_value()会选择被分到同一组的数据里第一条数据的指定列值作为返回数据
+
+简述回源原理和CDN常见多级缓存 
+tail -1000 log |grep 'badge/new-'
+
+nslookup
+
+JumpServer
