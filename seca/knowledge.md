@@ -82,3 +82,7 @@ tail -1000 log |grep 'badge/new-'
 nslookup
 
 JumpServer
+
+
+method_exists — 检查指定类中，指定的方法是否存在
+
