@@ -247,9 +247,11 @@ ADD COLUMN `is_vote` tinyint(1) NOT NULL DEFAULT 0 COMMENT '是否展示投票 0
 ALTER TABLE `sports_group`.`b8_vote_post_log`
 ADD COLUMN `vote_type` int(4) NOT NULL DEFAULT 4000 COMMENT '投票类型' AFTER `create_time`;
 
-     * @Author <zhaohongyan@zhibo.tv>
-     * @Date <2020-12-18>
-     * @Since version 5.2.0
+
+
+* @Author <zhaohongyan@zhibo.tv>
+* @Date <2020-12-18>
+* @Since version 5.2.0
 
 
 2020年12月08日投票结束  需要改
@@ -370,3 +372,15 @@ ADD COLUMN `vote_type` int(4) NOT NULL DEFAULT 4000 COMMENT '投票类型' AFTER
     http://192.168.2.248:3000/project/12/interface/api/3014
     投票
     http://192.168.2.248:3000/project/12/interface/api/225 这是头条投票,你有时间把你的调用的假接口信息去掉就行
+
+
+
+    43031211
+
+
+
+
+   $types=$isHaveVip ? ['video','vip_video'] : ['video'];
+            $page=(int)$page<1 ? 1 :$page;
+$searchIds=CommonSearchService::self()->searchFromHost(
+$tag,,'video','zhibo.tv',10,1,['_score','desc'],[], $terms,2);

@@ -34,3 +34,9 @@ html 上传文件样式更改
 https://www.haorooms.com/post/css_input_uploadmh
 九大uml图
 https://blog.csdn.net/xsh096011/article/details/79215121
+Elasticsearch
+https://www.elastic.co/guide/cn/elasticsearch/guide/current/running-elasticsearch.html
+PHP中&符号的神秘用处
+https://baijiahao.baidu.com/s?id=1625498128942790750&wfr=spider&for=pc
+缓冲
+https://www.pianshen.com/article/273083060/
