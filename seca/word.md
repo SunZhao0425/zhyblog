@@ -40,3 +40,5 @@ PHP中&符号的神秘用处
 https://baijiahao.baidu.com/s?id=1625498128942790750&wfr=spider&for=pc
 缓冲
 https://www.pianshen.com/article/273083060/
+java 架构师学习路线图
+https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map

@@ -103,6 +103,11 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 
 	管道命令符的作用能用zhi一句话来概括：“dao把前一个命令原本要zhuan输出到屏幕的数据shu当作是后一个命令的标准输入
 
+2.  部署
+```
+	/usr/local/php/bin/php /opt/modules/cachetool/cachetool.phar opcache:reset --fcgi=127.0.0.1:9000 
+
+```
 
 
 # git
@@ -134,10 +139,12 @@ https://www.daixiaorui.com/manual/redis-zAdd.html
 
 # cmd 中命令
 
-1.打开计算器
+- 1.打开计算器
 calc
 
-/usr/local/php/bin/php /opt/modules/cachetool/cachetool.phar opcache:reset --fcgi=127.0.0.1:9000
+
+
+
 
 
 
@@ -148,6 +155,10 @@ calc
 Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 Web 应用程序。 (极致简单与不断演变)
 
 
+## 自动生成代码 
+- 入口地址 域名 + /index.php/gii  例如:local-backend.zhibo.tv/index.php/gii
+- Yii2.0 Gii工具的使用   https://blog.csdn.net/hanyunpiaoyu/article/details/78070087
+
 
 
 
@@ -155,17 +166,31 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 
 # 工具快捷键
 
-
 ## phpstorm
-大小写切换： ctrl+shift+U
-格式化代码： ctrl+alt+L
-自动代码提示，补全:ctrl+j 
-鼠标跳转到某一行： ctrl+G
-查找类:CTRL+N
-在当前窗口查找文本:ctrl+f
-当前窗口替换文本:ctrl+r
-全局搜索文件 ,优先文件名匹配的文件:ctrl+shift+n 
-找变量的来源，跳到变量申明处 (ctrl+ 鼠标单击 也可以):cirl+b 
-找到继承该接口或者父级 的所有子类, 统计	
+- 大小写切换： ctrl+shift+u
+- 格式化代码： ctrl+alt+l
+- 自动代码提示，补全:ctrl+j 
+- 鼠标跳转到某一行： ctrl+g
+- 查找类: ctrl+n
+- 在当前窗口查找文本: ctrl+f
+- 当前窗口替换文本: ctrl+r
+- 全局搜索文件 ,优先文件名匹配的文件: ctrl+shift+n 
+- 找变量的来源，跳到变量申明处 (ctrl+ 鼠标单击 也可以): cirl+b 
+- 找到继承该接口或者父级 的所有子类, 统计	
 ​​​​
-​​​​
+
+## sublimetext
+- 1. alt + m  使.md文件直接在浏览器中预览生成的html文件
+- 2. ctrl + ku    改为大写
+- 3. ctrl + kl    改为小写
+
+
+## cdn 
+- 定义
+- 操作
+- 指标
+- 流程
+
+
+
+
