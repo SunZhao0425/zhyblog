@@ -161,9 +161,6 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 
 
 
-
-
-
 # 工具快捷键
 
 ## phpstorm
@@ -192,5 +189,19 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 - 流程
 
 
+# 常用工具
+1. 流程图绘制工具 : https://processon.com/
+2. 代码管理工具 : gitLab
+3. 远程工具 : 向日葵
+4. 运维自动化: jenkins 
+```
+	构建项目
+	https://www.cnblogs.com/yingjiyu/p/12297322.html
+	戏子的运维笔记
+	https://www.kancloud.cn/yjscloud/linux/726344
+	Jenkins详细教程
+	https://www.jianshu.com/p/5f671aca2b5a
 
+```
+5. 接口文档工具: yapi
 
