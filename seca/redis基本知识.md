@@ -50,6 +50,31 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 	 LockRedis::self()->unLock($lockKey); 
 -->
 
+# MYSQL
+
+## explain
+- expain出来的信息有10列，分别是id、select_type、table、type、possible_keys、key、key_len、ref、rows、Extra
+
+- https://www.cnblogs.com/tufujie/p/9413852.html
+
+概要描述:
+
+```
+	id:选择标识符
+	select_type:表示查询的类型。
+	table:输出结果集的表
+	partitions:匹配的分区
+	type:表示表的连接类型
+	possible_keys:表示查询时，可能使用的索引
+	key:表示实际使用的索引
+	key_len:索引字段的长度
+	ref:列与索引的比较
+	rows:扫描出的行数(估算的行数)
+	filtered:按表条件过滤的行百分比
+	Extra:执行情况的描述和说明
+
+```
+
 # php
 
 ### php 字符串函数
@@ -85,6 +110,66 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 - call_user_func()  把第一个参数作为回调函数调用
 
 
+## 魔法常量
+- __ LINE__  文件中的当前行号
+- __ FILE__  文件的完整路径和文件名.
+- __ DIR__   文件所在的目录.
+- __ FUNCTION__ 函数名称
+- __ CLASS__    类的名称
+- __ TRAIT__    实现代码复用的一个方法. 用于实现多继承关键字
+```
+	PHP中的Traits用法详解 
+	https://www.cnblogs.com/phpper/p/8978098.html
+	<?php
+		trait Drive {
+		    public $carName = 'BMW';
+		    public function driving() {
+		        echo "driving {$this->carName}\n";
+		    }
+		}
+		class Person {
+		    public function age() {
+		        echo "i am 18 years old\n";
+		    }
+		}
+		class Student extends Person {
+		    use Drive;
+		    public function study() {
+		        echo "Learn to drive \n";
+		    }
+		}
+		$student = new Student();
+		$student->study();
+		$student->age();
+		$student->driving();
+	?>
+```
+- __ METHOD__   类的方法名
+- __ NAMESPACE__ 当前命名空间的名称
+
+###  魔术方法
+```
+	php 十六个魔术方法详解
+	https://segmentfault.com/a/1190000007250604
+
+```
+
+- __construct()，类的构造函数
+- __destruct()，类的析构函数
+- __call()，在对象中调用一个不可访问方法时调用
+- __callStatic()，用静态方式中调用一个不可访问方法时调用
+- __get()，获得一个类的成员变量时调用
+- __set()，设置一个类的成员变量时调用
+- __isset()，当对不可访问属性调用isset()或empty()时调用
+- __unset()，当对不可访问属性调用unset()时被调用。
+- __sleep()，执行serialize()时，先会调用这个函数
+- __wakeup()，执行unserialize()时，先会调用这个函数
+- __toString()，类被当成字符串时的回应方法
+- __invoke()，调用函数的方式调用一个对象时的回应方法
+- __set_state()，调用var_export()导出类时，此静态方法会被调用。
+- __clone()，当对象复制完成时调用
+- __autoload()，尝试加载未定义的类
+- __debugInfo()，打印所需调试信息
 
 ### php 其他函数
 - ceil()  向上舍入为最接近的整数。
@@ -135,18 +220,10 @@ https://www.daixiaorui.com/manual/redis-zAdd.html
 
 
 
-
-
 # cmd 中命令
 
 - 1.打开计算器
 calc
-
-
-
-
-
-
 
 
 
@@ -160,10 +237,9 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 - Yii2.0 Gii工具的使用   https://blog.csdn.net/hanyunpiaoyu/article/details/78070087
 
 
-
 # 工具快捷键
 
-## phpstorm
+## phpStorm
 - 大小写切换： ctrl+shift+u
 - 格式化代码： ctrl+alt+l
 - 自动代码提示，补全:ctrl+j 
@@ -176,17 +252,11 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 - 找到继承该接口或者父级 的所有子类, 统计	
 ​​​​
 
-## sublimetext
-- 1. alt + m  使.md文件直接在浏览器中预览生成的html文件
-- 2. ctrl + ku    改为大写
-- 3. ctrl + kl    改为小写
+## sublimeText
+1. alt + m  使.md文件直接在浏览器中预览生成的html文件
+2. ctrl + ku    改为大写
+3. ctrl + kl    改为小写
 
-
-## cdn 
-- 定义
-- 操作
-- 指标
-- 流程
 
 
 # 常用工具
@@ -204,4 +274,12 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 
 ```
 5. 接口文档工具: yapi
+6. xshell
+7. 代码提交工具 :  git + svn
+8. 阿里云 (服务器 + 数据库 + redis + elasticsearch  +oss + 负载均衡 + cdn + 日志服务)
 
+## CDN 
+- 定义
+- 操作
+- 指标
+- 流程
