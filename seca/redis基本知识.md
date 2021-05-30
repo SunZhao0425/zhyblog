@@ -77,6 +77,10 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 
 # php
 
+```
+	https://segmentfault.com/a/1190000017179932/
+```
+
 ### php 字符串函数
 
 - ucwords() - 把每个单词的首字符转换为大写
@@ -182,6 +186,11 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 - https://learnku.com/docs/psr
 
 
+# javaScript
+## 运算
+- 平方    x**y/math.pow(x,y)
+- 开平方  Math.sqrt( x ) ;
+
 # linux 
 
 1. |  叫管道du符号。
@@ -193,6 +202,7 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 	/usr/local/php/bin/php /opt/modules/cachetool/cachetool.phar opcache:reset --fcgi=127.0.0.1:9000 
 
 ```
+
 
 
 # git
@@ -222,9 +232,10 @@ https://www.daixiaorui.com/manual/redis-zAdd.html
 
 # cmd 中命令
 
-- 1.打开计算器
-calc
-
+- .打开计算器
+	calc
+- 查看是否配置cdn  
+	nslookup  域名
 
 
 # yii2 框架
@@ -235,6 +246,12 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 ## 自动生成代码 
 - 入口地址 域名 + /index.php/gii  例如:local-backend.zhibo.tv/index.php/gii
 - Yii2.0 Gii工具的使用   https://blog.csdn.net/hanyunpiaoyu/article/details/78070087
+
+# 网络
+## Tcp 
+
+## udp
+
 
 
 # 工具快捷键
@@ -279,6 +296,11 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 8. 阿里云 (服务器 + 数据库 + redis + elasticsearch  +oss + 负载均衡 + cdn + 日志服务)
 
 ## CDN 
+
+```
+    原理 CDN加速原理
+	https://blog.csdn.net/yicaifenchen8/article/details/104064263
+```
 - 定义
 - 操作
 - 指标
