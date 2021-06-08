@@ -162,8 +162,6 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 - __destruct()，类的析构函数
 - __call()，在对象中调用一个不可访问方法时调用
 - __callStatic()，用静态方式中调用一个不可访问方法时调用
-- __get()，获得一个类的成员变量时调用
-- __set()，设置一个类的成员变量时调用
 - __isset()，当对不可访问属性调用isset()或empty()时调用
 - __unset()，当对不可访问属性调用unset()时被调用。
 - __sleep()，执行serialize()时，先会调用这个函数
@@ -202,6 +200,8 @@ Subscribe 命令用于订阅给定的一个或多个频道的信息
 	/usr/local/php/bin/php /opt/modules/cachetool/cachetool.phar opcache:reset --fcgi=127.0.0.1:9000 
 
 ```
+3. 
+## vim 语法
 
 
 
@@ -246,6 +246,13 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 ## 自动生成代码 
 - 入口地址 域名 + /index.php/gii  例如:local-backend.zhibo.tv/index.php/gii
 - Yii2.0 Gii工具的使用   https://blog.csdn.net/hanyunpiaoyu/article/details/78070087
+
+## composer
+
+## 运行的生命周期
+
+## Yii 应用在处理用户请求时典型的工作流
+
 
 # 网络
 ## Tcp 
@@ -301,8 +308,29 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
     原理 CDN加速原理
 	https://blog.csdn.net/yicaifenchen8/article/details/104064263
 ```
+
 - 定义
 - 操作
 - 指标
 - 流程
 
+## 架构
+
+- 分布式事务
+- 分布式数据库
+- 分布式缓存实战
+- elastic
+
+```
+	es 原理
+	es 搜索
+	索引,映射
+	分布式CURD
+	索引管理
+	分片
+	搜索优化
+```
+
+- rabbitMq
+- kafka
+- linux

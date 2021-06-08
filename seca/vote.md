@@ -12,8 +12,6 @@ Zhao1234
 
  ZHAOhongyan0.
 
-
-
  新后台新增
 
  投票 
@@ -30,11 +28,6 @@ Zhao1234
 
  create_time
  update_time
-
-
-
-
-
 
 问题: 
 1. 投票记录在哪个位置

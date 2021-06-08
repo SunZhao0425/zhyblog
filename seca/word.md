@@ -44,3 +44,14 @@ java 架构师学习路线图
 https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map
 排序算法的评价
 https://hit-alibaba.github.io/interview/basic/algo/Sorting.html
+linux查看负载常用的命令
+https://www.cnblogs.com/pengjt/p/11910572.html
+每天一个linux命令（50）：crontab命令
+https://www.cnblogs.com/peida/archive/2013/01/08/2850483.html
+Yii2依赖注入容器讲解
+https://www.yiichina.com/topic/6445
+https://www.yiichina.com/tutorial/112
+前端常见跨域解决方案(全)
+https://segmentfault.com/a/1190000011145364
+在浏览器地址栏输入一个URL后回车，背后会进行哪些技术步骤？
+https://www.zhihu.com/question/34873227
